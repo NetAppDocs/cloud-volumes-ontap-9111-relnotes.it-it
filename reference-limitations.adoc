@@ -37,19 +37,6 @@ NOTE: I punti di coerenza ONTAP nel file system WAFL determinano la coerenza dei
 
 
 
-== Supporto nelle regioni della Cina
-
-Cloud Volumes ONTAP è supportato nelle regioni della Cina come indicato di seguito.
-
-* Cloud Volumes ONTAP 9.6 è supportato nelle regioni AWS della Cina.
-* Sono supportati i sistemi a nodo singolo.
-* Sono supportate le licenze acquistate direttamente da NetApp.
-
-
-Tutte le altre posizioni, versioni, configurazioni e licenze non sono supportate.
-
-
-
 == Cloud Volumes ONTAP supporta istanze di macchine virtuali riservate e on-demand
 
 Cloud Volumes ONTAP può essere eseguito su un'istanza di macchina virtuale riservata o on-demand dal tuo cloud provider. Altri tipi di istanze di macchine virtuali non sono supportati.

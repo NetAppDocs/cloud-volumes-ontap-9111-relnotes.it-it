@@ -402,7 +402,6 @@
   <block id="c2d000408838a6b2031536d54c067fd9" category="paragraph">La ricarica si basa sulle dimensioni della capacità impegnata per una o più coppie Cloud Volumes ONTAP ha nel tuo abbonamento Keystone Flex.</block>
   <block id="0e1a6eb7eed81777ed9d0610be51df3b" category="paragraph">Il precedente modello di licenza per nodo rimane disponibile per i clienti che hanno già acquistato una licenza o che hanno un abbonamento al marketplace attivo.</block>
   <block id="deb56fb5a824215375b16e72749e2aa3" category="inline-link">Scopri di più su queste opzioni di licenza</block>
-  <block id="f3b3e9858be5dbfaf6c39891db3263a2" category="paragraph"><block ref="f3b3e9858be5dbfaf6c39891db3263a2" category="inline-link-rx"></block></block>
   <block id="dd3a01ec5d4598a3233e196c00eb9493" category="summary">Queste note di rilascio descrivono nuove funzionalità, limitazioni e problemi noti di Cloud Volumes ONTAP 9.11.1.</block>
   <block id="84da1541cae666ec8e7f781f0d3b6175" category="doc">Note sulla versione di Cloud Volumes ONTAP 9.11.1</block>
   <block id="5520e32d61a58dff51fc6730939c3baf" category="summary">Cloud Volumes ONTAP ha limiti di configurazione dello storage in Google Cloud per fornire operazioni affidabili. Per ottenere prestazioni ottimali, non configurare il sistema ai valori massimi.</block>
@@ -448,12 +447,6 @@
   <block id="71674eaa07f12640df0ea0be77ecd9ac" category="inline-link">Scopri come utilizzare Cloud Backup Service per eseguire il backup e il ripristino dei dati ONTAP</block>
   <block id="e81db3857b1943249df996fe0b3ed679" category="paragraph"><block ref="935fff627382fb455a98804a9e37d559" category="inline-link-rx"></block>.</block>
   <block id="3d880dec2575e676954faf6a6a218972" category="admonition">I punti di coerenza ONTAP nel file system WAFL determinano la coerenza dei dati. Solo ONTAP può interrompere il file system WAFL per eseguire un backup coerente con il crash.</block>
-  <block id="d302a39827e370146d2861389e98e60c" category="section-title">Supporto nelle regioni della Cina</block>
-  <block id="da059bd73f7531380888607adbbd03aa" category="paragraph">Cloud Volumes ONTAP è supportato nelle regioni della Cina come indicato di seguito.</block>
-  <block id="cbf02fb0cb394b4b19fb0788f9b62554" category="list-text">Cloud Volumes ONTAP 9.6 è supportato nelle regioni AWS della Cina.</block>
-  <block id="fcf30aaa0348521d4d4752992c9db378" category="list-text">Sono supportati i sistemi a nodo singolo.</block>
-  <block id="80a79e3e92d4834ae8746d205e83c105" category="list-text">Sono supportate le licenze acquistate direttamente da NetApp.</block>
-  <block id="a5a1e4029969159a5f8fdeddd3fb7e1b" category="paragraph">Tutte le altre posizioni, versioni, configurazioni e licenze non sono supportate.</block>
   <block id="38220a2514a2fcb218be440c035b4175" category="section-title">Cloud Volumes ONTAP supporta istanze di macchine virtuali riservate e on-demand</block>
   <block id="8ce602039d8c7d53c95e1f62b1d83ef0" category="paragraph">Cloud Volumes ONTAP può essere eseguito su un'istanza di macchina virtuale riservata o on-demand dal tuo cloud provider. Altri tipi di istanze di macchine virtuali non sono supportati.</block>
   <block id="dbe94f36417009d827f76ccf107bd90c" category="section-title">Le soluzioni di gestione automatica delle risorse applicative non devono essere utilizzate</block>
@@ -704,4 +697,5 @@
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Tutta la documentazione BlueXP</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="sidebar">Cloud Volumes ONTAP</block>
   <block id="dea335c9c6f638eb584011e253ad6ca1" category="sidebar">Cloud ONTAP</block>
+  <block id="c46270a9bdf069bd0e015f7953e02355" category="paragraph"><block ref="c46270a9bdf069bd0e015f7953e02355" category="inline-link-rx"></block></block>
 </blocks>
