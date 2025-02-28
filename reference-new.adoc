@@ -90,7 +90,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploy-aws-
 
 Cloud Volumes ONTAP è ora supportato nella regione AWS di Giacarta (ap-sud-est-3).
 
-https://cloud.netapp.com/cloud-volumes-global-regions["Visualizza l'elenco completo delle regioni supportate per Cloud Volumes ONTAP"^]
+https://bluexp.netapp.com/cloud-volumes-global-regions["Visualizza l'elenco completo delle regioni supportate per Cloud Volumes ONTAP"^]
 
 
 
@@ -98,7 +98,7 @@ https://cloud.netapp.com/cloud-volumes-global-regions["Visualizza l'elenco compl
 
 Cloud Volumes ONTAP è ora supportato nella regione sud-orientale del Brasile.
 
-https://cloud.netapp.com/cloud-volumes-global-regions["Visualizza l'elenco completo delle regioni supportate per Cloud Volumes ONTAP"^]
+https://bluexp.netapp.com/cloud-volumes-global-regions["Visualizza l'elenco completo delle regioni supportate per Cloud Volumes ONTAP"^]
 
 
 
