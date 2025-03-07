@@ -116,7 +116,7 @@ https://bluexp.netapp.com/cloud-volumes-global-regions["Visualizza l'elenco comp
 
 Le coppie Cloud Volumes ONTAP ha sono ora supportate nella regione di Milano (europa-ovest 8).
 
-https://cloud.netapp.com/cloud-volumes-global-regions["Visualizza l'elenco completo delle regioni supportate per Cloud Volumes ONTAP"^]
+https://bluexp.netapp.com/cloud-volumes-global-regions["Visualizza l'elenco completo delle regioni supportate per Cloud Volumes ONTAP"^]
 
 
 
