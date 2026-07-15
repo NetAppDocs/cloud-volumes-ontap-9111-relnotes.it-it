@@ -20,6 +20,7 @@ Ulteriori funzionalità e miglioramenti sono stati introdotti anche nelle ultime
 
 
 
+[[9-11-1-p12-8-december-2023]]
 == 9.11.1 P12 (8 dicembre 2023)
 
 La patch 9.11.1 P12 è ora disponibile per Cloud Volumes ONTAP per tutti i cloud provider. BlueXP richiederà di aggiornare i sistemi esistenti a questa versione di patch.
@@ -28,6 +29,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-11-1-p6-19-february-2023]]
 == 9.11.1 P6 (19 febbraio 2023)
 
 La patch 9.11.1 P6 è ora disponibile per Cloud Volumes ONTAP per Azure se si dispone di un connettore con versione 3.9.26 o successiva. BlueXP richiederà di aggiornare i sistemi esistenti a questa versione di patch.
@@ -36,6 +38,7 @@ https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downl
 
 
 
+[[9-11-1-p4-18-december-2022]]
 == 9.11.1 P4 (18 dicembre 2022)
 
 La patch 9.11.1 P4 è ora disponibile per Cloud Volumes ONTAP per tutti i cloud provider se si dispone di un connettore con versione 3.9.24 o successiva. BlueXP richiederà di aggiornare i sistemi esistenti a questa versione di patch.
@@ -44,6 +47,7 @@ https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downl
 
 
 
+[[9-11-1-p3-19-october-2022]]
 == 9.11.1 P3 (19 ottobre 2022)
 
 La patch 9.11.1 P3 è ora disponibile per Cloud Volumes ONTAP per tutti i cloud provider se si dispone di un connettore con versione 3.9.22 o successiva. BlueXP richiederà di aggiornare i sistemi esistenti a questa versione di patch.
@@ -52,24 +56,28 @@ https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downl
 
 
 
+[[9-11-1-ga-1-aug-2022]]
 == 9.11.1 GA (1 agosto 2022)
 
 È ora disponibile la versione General Availability (GA) di Cloud Volumes ONTAP 9.11.1. La release GA include correzioni di bug.
 
 
 
+[[9-11-1-rc1-7-june-2022]]
 == 9.11.1 RC1 (7 giugno 2022)
 
 Cloud Volumes ONTAP 9.11.1 Release Candidate 1 è ora disponibile in AWS, Azure e Google Cloud. Questa versione include le seguenti nuove funzioni e miglioramenti.
 
 
 
+[[performance-enhancement]]
 === Miglioramento delle performance
 
 Abbiamo migliorato le performance di lettura dei nuovi aggregati creati nel 9.11.1 o in una versione successiva.
 
 
 
+[[increased-storage-efficiency]]
 === Maggiore efficienza dello storage
 
 A partire dalla release 9.11.1, tutti i nuovi volumi abilitati per l'efficienza dello storage includeranno una nuova funzionalità di compressione chiamata efficienza dello storage sensibile alla temperatura. La funzione di compressione di generazione precedente non viene più utilizzata.
@@ -78,6 +86,7 @@ L'efficienza dello storage sensibile alla temperatura comprime i dati in base al
 
 
 
+[[vpc-sharing-in-aws]]
 === Condivisione VPC in AWS
 
 Le coppie Cloud Volumes ONTAP ha sono ora supportate in AWS con condivisione VPC. La condivisione VPC consente alla tua organizzazione di condividere le subnet con altri account AWS. Le reti (VPC, subnet e tabelle di routing) risiedono nell'account proprietario del VPC, mentre le istanze EC2 per la configurazione ha risiedono in un account partecipante che utilizza subnet condivise.
@@ -86,6 +95,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploy-aws-
 
 
 
+[[new-aws-region-support]]
 === Nuovo supporto regione AWS
 
 Cloud Volumes ONTAP è ora supportato nella regione AWS di Giacarta (ap-sud-est-3).
@@ -94,6 +104,7 @@ https://bluexp.netapp.com/cloud-volumes-global-regions["Visualizza l'elenco comp
 
 
 
+[[new-azure-region-support]]
 === Nuovo supporto per la regione Azure
 
 Cloud Volumes ONTAP è ora supportato nella regione sud-orientale del Brasile.
@@ -102,6 +113,7 @@ https://bluexp.netapp.com/cloud-volumes-global-regions["Visualizza l'elenco comp
 
 
 
+[[support-for-24-storage-vms-in-google-cloud]]
 === Supporto per 24 storage VM in Google Cloud
 
 24 macchine virtuali storage sono ora supportate con Cloud Volumes ONTAP in Google Cloud per la maggior parte delle configurazioni.
@@ -112,6 +124,7 @@ https://bluexp.netapp.com/cloud-volumes-global-regions["Visualizza l'elenco comp
 
 
 
+[[new-google-cloud-region-support]]
 === Nuovo supporto per la regione di Google Cloud
 
 Le coppie Cloud Volumes ONTAP ha sono ora supportate nella regione di Milano (europa-ovest 8).
@@ -120,6 +133,7 @@ https://bluexp.netapp.com/cloud-volumes-global-regions["Visualizza l'elenco comp
 
 
 
+[[modifying-lif-services-for-new-storage-vms]]
 === Modifica dei servizi LIF per le nuove macchine virtuali storage
 
 A partire da questa release, se si crea una nuova VM di storage su una coppia Cloud Volumes ONTAP ha in AWS o Azure, è necessario modificare le policy di servizio di rete per la VM di storage. La modifica dei servizi è necessaria perché garantisce che Cloud Volumes ONTAP possa utilizzare la LIF iSCSI per le connessioni di gestione in uscita.
@@ -134,18 +148,21 @@ I comandi da eseguire sono specificati nelle seguenti pagine:
 
 
 
+[[new-unsupported-ontap-feature]]
 == Nuova funzione ONTAP non supportata
 
 La nuova funzionalità di verifica multi-admin introdotta in ONTAP 9.11.1 non è supportata con Cloud Volumes ONTAP. L'attivazione della verifica multi-admin su Cloud Volumes ONTAP comporterà una configurazione non supportata.
 
 
 
+[[upgrade-notes]]
 == Note sull'aggiornamento
 
 Leggi queste note per ulteriori informazioni sull'aggiornamento a questa release.
 
 
 
+[[how-to-upgrade]]
 === Come eseguire l'upgrade
 
 Gli aggiornamenti di Cloud Volumes ONTAP devono essere completati da BlueXP. Non aggiornare Cloud Volumes ONTAP utilizzando Gestione di sistema o l'interfaccia CLI. In questo modo si può influire sulla stabilità del sistema.
@@ -154,12 +171,14 @@ http://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ont
 
 
 
+[[supported-upgrade-path]]
 === Percorso di upgrade supportato
 
 È possibile eseguire l'aggiornamento a Cloud Volumes ONTAP 9.11.1 dalla release 9.11.0 e dalla release 9.10.1. BlueXP richiederà di aggiornare i sistemi Cloud Volumes ONTAP idonei a questa versione.
 
 
 
+[[required-version-of-the-connector]]
 === Versione richiesta del connettore
 
 BlueXP Connector deve eseguire la versione 3.9.19 o successiva per implementare nuovi sistemi Cloud Volumes ONTAP 9.11.1 e aggiornare i sistemi esistenti alla versione 9.11.1.
@@ -169,6 +188,7 @@ TIP: Gli aggiornamenti automatici del connettore sono attivati per impostazione 
 
 
 
+[[downtime]]
 === Downtime
 
 * L'aggiornamento di un sistema a nodo singolo porta il sistema offline per un massimo di 25 minuti, durante i quali l'i/o viene interrotto.
@@ -177,6 +197,7 @@ TIP: Gli aggiornamenti automatici del connettore sono attivati per impostazione 
 
 
 
+[[upgrades-in-aws-with-c4-m4-and-r4-ec2-instance-types]]
 === Upgrade in AWS con tipi di istanze C4, M4 e R4 EC2
 
 In AWS, i tipi di istanze C4, M4 e R4 EC2 non sono più supportati con le nuove implementazioni di Cloud Volumes ONTAP. Se si dispone di un sistema in esecuzione su un tipo di istanza c4, m4 o r4, è necessario passare a un tipo di istanza nella famiglia di istanze c5, m5 o r5. Se non è possibile modificare il tipo di istanza, è necessario abilitare la rete avanzata prima di eseguire l'aggiornamento.
